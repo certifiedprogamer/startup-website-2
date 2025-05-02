@@ -1,12 +1,12 @@
 /* CSS Variables */
 :root {
-    --color-primary: #000000;
-    --color-primary-accent: #2d3035;
+    --color-primary: #29354e;
+    --color-primary-accent: #4e4e4e;
     --color-secondary: #4225e9;
     --color-secondary-accent: #5168e6;
     --color-accent: #599fee;
     --color-headings: #69b7fc;
-    --color-body: #a2d2ff;
+    --color-body: #6d95bb;
     --heading-font-size: 3em;
     --icon-back: black;
     --border-radius: 5px;
@@ -349,7 +349,7 @@ a {
 }
 
 .nav_item > a{
-    color: orange;
+    color: var(--color-body);
     transition: color 0.3s;
 }
 
@@ -424,6 +424,10 @@ a {
     width: 100%;
 }
 
+.hero-container{
+    background: linear-gradient(to bottom, blue, black);
+}
+
 
 /* custom card titles */
 .pang{
@@ -447,3 +451,6 @@ a {
                   color: transparent;
 }
 
+#copy{
+    color: white;
+}
