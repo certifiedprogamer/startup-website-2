@@ -177,9 +177,8 @@ a {
     border-radius: var(--border-radius);
     border: 1px solid var(--border-color);
     color: var(--color-headings);
-    font-size: 2rem;
     outline: 0;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem .7rem;
 }
 
 ::placeholder {
@@ -360,7 +359,7 @@ a {
 @media screen and (min-width: 768px){
     .nav_toggler{
         display: none;
-    }
+    }  
     .nav_list{
         width: auto;
         display: flex;
